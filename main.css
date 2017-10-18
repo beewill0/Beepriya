@@ -1,0 +1,74 @@
+/*body set up for background image and font size*/
+body{
+	display: flex;
+	flex-direction: column; 
+	background-image: url(whtango.svg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	align-items: center;
+	font-family: 'Kavoon',cursive;
+	width: auto;
+	}
+/*Set up containers for skills area*/
+.divskill{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	text-align: center}
+
+/*Image radius for bee picture*/
+section img{
+border-radius: 45px;
+}
+/* line height specified for h1 header.. words are too close without*/
+.linespace{
+	line-height: 180%
+}
+/*Background and set up for skill boxes inside of container*/
+.skillbox{
+background-image: url(traandblk.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+box-shadow:5px 5px 5px black;
+border-style: solid;
+border-radius: 10px;
+border-color: goldenrod;
+margin: 5px;
+height: 100%;
+color: goldenrod;
+}
+
+/* Font and shadow set up for h1 headers*/
+.hnlines{
+	font-family: 'Fontdiner Swanky', cursive;
+	font-size: 30px;
+	text-align: center;
+	text-shadow: 50px black;
+}
+
+/*setting for unboxed area under heading */
+.msec{
+	text-align: center;
+	width: auto;
+	text-shadow: 5px 5px 5px goldenrod;
+}
+
+/*Back to top button set-up*/
+.button{
+border-style: solid;
+border-color: black;
+border-radius: 10px;
+background-color: goldenrod;
+}
+
+/*Break points for larger device screen*/
+@media only screen and (min-width: 700px){
+[class*="hnlines"]{
+font-size: 50px;
+}
+}
+@media only screen and (min-width: 700px){
+body{
+font-size: 20px;
+}
+}
